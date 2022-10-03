@@ -1,10 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Bootstrap from "./components/Bootstrap";
+
 
 function App() {
   return (
     <div className="App">
-
+      <h1>Frameworks CSS con React </h1>
+      <Bootstrap/>
     </div>
   );
 }
